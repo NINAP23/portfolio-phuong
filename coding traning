@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyPV/+4NjKhACWXC9FJf+ciX",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/NINAP23/portfolio-phuong/blob/master/coding%20traning\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Madlib"
+      ],
+      "metadata": {
+        "id": "vJAZ-u1IOzXU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pEm6KzZFMsW-",
+        "outputId": "da36c87f-87c3-4824-b440-2dad6784cbcf"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Name:Kim\n",
+            "Adjective:short\n",
+            "Verb:kiss\n",
+            "Verb 2:dance\n",
+            "Kim is so short! I'd rather kiss with my teacher than dance with that loser.\n"
+          ]
+        }
+      ],
+      "source": [
+        "name=input(\"Name:\")\n",
+        "adj=input(\"Adjective:\")\n",
+        "verb=input(\"Verb:\")\n",
+        "verb2=input(\"Verb 2:\")\n",
+        "madlib= f\"{name} is so {adj}! I'd rather {verb} with my teacher than {verb2} with that loser.\"\n",
+        "print(madlib)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "dB0X4fiENKGw"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
